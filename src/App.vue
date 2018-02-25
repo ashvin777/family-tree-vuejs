@@ -10,16 +10,19 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import './common.scss';
+@import './assets/style.css';
+@import './normalize.css';
 
 html, body{
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

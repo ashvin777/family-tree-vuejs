@@ -1,6 +1,8 @@
 <template>
   <div class="page">
-    
+    <Navbar></Navbar>
+    <SearchBar></SearchBar>
+    <ListView></ListView>
   </div>
 </template>
 

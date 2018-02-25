@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
+
+$font-small:0.5rem;
+$font-normal: 0.875rem; //14px
+$font-medium: 1rem; //16px
+$font-large: 1.125rem;
+$font-larger: 1.25rem;
+$font-largest: 1.5rem;
+
+
+$light-blue:#3b49f5;
+$blue: darken($light-blue, 5%);
+$lighter-blue:lighten($light-blue, 2%);
+
+$gray: gray;
+$light-gray: #cdccc6;
+$lighter-gray: lighten($light-gray, 10% );
+$lightest-gray: lighten($light-gray, 18% );
+$white: white;
+$black: black;

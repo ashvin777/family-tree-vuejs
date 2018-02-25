@@ -1,0 +1,15 @@
+@import './consts';
+
+input {
+  appearance: none;
+  border: 0;
+  width: 100%;
+  padding: 1rem;
+  background: $lightest-gray;
+  font-size: $font-normal;
+  position: relative;
+
+  &:focus {
+    outline: 0;
+  }
+}
