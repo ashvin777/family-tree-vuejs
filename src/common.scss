@@ -1,5 +1,9 @@
 @import './consts';
 
+* {
+  box-sizing: border-box;
+}
+
 input {
   appearance: none;
   border: 0;
@@ -8,8 +12,57 @@ input {
   background: $lightest-gray;
   font-size: $font-normal;
   position: relative;
-
   &:focus {
     outline: 0;
   }
+}
+
+button{
+  background: $light-blue;
+  border: 0;
+  appearance: none;
+  color: $white;
+  padding: 1rem;
+  outline: 0;
+  margin: 1rem 0;
+
+  &:hover{
+    background: lighten($light-blue, 5%);
+  }
+
+  &:active{
+    background: darken($light-blue, 5%);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.page{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0;
+
+  padding: 3px;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  border-radius: 100%;
+  background-size: cover;
+  background-color: $gray;
+
+  box-shadow: 0 3px 11px $gray;
 }

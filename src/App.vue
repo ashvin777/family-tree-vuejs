@@ -19,10 +19,12 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-size: $font-normal;
 }
 
 #app {
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

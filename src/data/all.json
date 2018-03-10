@@ -1,0 +1,60 @@
+[{
+  "id": 1,
+  "name": "Ashvin suthar",
+  "email": "ashvin.suthar777@gmail.com",
+  "gender": "male",
+  "fatherId": 3,
+  "motherId": 4,
+  "spouseId": 2
+}, {
+  "id": 2,
+  "name": "Anita suthar",
+  "gender": "female",
+  "email": "anita.suthar777@gmail.com",
+  "fatherId": null,
+  "motherId": null,
+  "spouseId": 1
+}, {
+  "id": 3,
+  "name": "Pratap ram suthar",
+  "email": "prsuthar@gmail.com",
+  "gender": "male",
+  "fatherId": null,
+  "motherId": null,
+  "spouseId": 4
+}, {
+  "id": 4,
+  "name": "Nathi devi",
+  "gender": "female",
+  "fatherId": null,
+  "motherId": null,
+  "spouseId": 3
+}, {
+  "id": 5,
+  "name": "Poonam mistry",
+  "gender": "female",
+  "fatherId": 3,
+  "motherId": 4,
+  "spouseId": 6
+}, {
+  "id": 6,
+  "name": "Navin mistry",
+  "gender": "male",
+  "fatherId": null,
+  "motherId": null,
+  "spouseId": 5
+}, {
+  "id": 7,
+  "name": "Vinod suthar",
+  "gender": "male",
+  "fatherId": 3,
+  "motherId": 4,
+  "spouseId": 8
+}, {
+  "id": 8,
+  "name": "Hetal suthar",
+  "gender": "female",
+  "fatherId": null,
+  "motherId": null,
+  "spouseId": 7
+}]
